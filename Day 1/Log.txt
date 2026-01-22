@@ -1,0 +1,6 @@
+20/01/2026
+Problem 1: Find the greatest number from given three (With ensuring that given input is integer only)
+isdigit() function to verify the integer 
+
+Problem 2: Calculator program
+Peform basic +-*/ operations using 
