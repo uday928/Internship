@@ -74,6 +74,7 @@ def save_to_excel(filename, items, TotalPrice, cusDetails):
 
 # ================= DELETE FROM EXCEL =================
 def delete_item_from_excel(filename, product_id):
+    # 1. In case excel file does not exist
     if not os.path.exists(filename):
         print("Excel file does not exist!")
         return

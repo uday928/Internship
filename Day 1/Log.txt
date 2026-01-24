@@ -4,3 +4,6 @@ isdigit() function to verify the integer
 
 Problem 2: Calculator program
 Peform basic +-*/ operations using 
+
+Problem 3: Simple invoice generator
+create a simple invoice making program which takes customer details and purchase details and shows invoice like structure in OP

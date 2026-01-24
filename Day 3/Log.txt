@@ -1,0 +1,5 @@
+22/01/2026
+Multiple products inserted in excel using Python openpyxl library
+
+1. A local list SAVE, ADD, DELETE operation works as Day 2
+2. Save to excel and delete from excel to perform Save and delete operation in Excel

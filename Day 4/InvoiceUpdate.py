@@ -4,6 +4,7 @@ import os
 
 # ================= UPDATE CUSTOMER DETAILS =================
 def update_customer_details(cusDetails):
+    # 1. Update option
     while True:
         print("""
         Update Customer Details:

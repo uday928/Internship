@@ -1,0 +1,7 @@
+23/01/2026
+
+Problem 1: Invoice update task
+Add an update record function to enable user edit the existing user details, After edit the same details will be saved in excel by invoking the save_to_excel function
+
+Problem 2: Calculate CGST, SGST [for same state transect], IGST[for interState transect]  
+Add an column for GST (tax) section, calculate the price after including tax
