@@ -1,0 +1,29 @@
+27/01/2026
+
+Connecting our invoice program to SQL database server (MySQL)
+
+commands: 
+1. pip install mysql-connector-python <--OR--> python -m pip install mysql-connector-python
+2. pip install pymysql
+
+
+In invoice_db_updated, choice based functions are given...  
+--------------------------------------------------------------------------------------
+
+Xampp troubleshoot:
+
+1. delete all another MySQL server which conflicts in Xampp MySQL server start -- if they are not optional
+--> for Xampp unexpected MySQL server shutdown:
+2. change the port number: by clicking on config--> search Port --> replace new port (typically 3306) with new port 3307 or 3308 or 4306 anything
+3. Try to restart the server
+(TO check weather port is running or not: netstat -ano | findstr :3306  ---use this command in cmd as admin)
+
+4. Go to C:\xampp\mysql and make a copy of data folder and name it data_old, delete phpmyadmin, performance_schema, mysql and test folders, delete all files expect ibdata1
+5. C:\xampp\mysql\backup go here and copy all files and folders expect ibdata1 and paste it in data folder
+6. restart the server in Xampp
+
+--> http://localhost/phpmyadmin/ error:
+1. C:\xampp\phpMyAdmin go here open config.inc file and add the port number on which our SQL server is runing as below:
+
+    $cfg['Servers'][$i]['AllowNoPassword'] = true;
+    $cfg['Servers'][$i]['port'] = 3305;
