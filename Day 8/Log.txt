@@ -1,0 +1,3 @@
+30/01/2026
+
+Practice and understanding about pandas library, Data Frame, Data series, Data cleaning (Date formatting, Wrong data identification and cleaning, Data replacement, Data removal), Relationships between different attributes, Data visualization and Graph plot (From w3shools)
